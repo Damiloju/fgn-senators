@@ -1,1 +1,559 @@
-[{"title":"testing","body":"testing"},{"name":"testing","state":"testing","phone":"testing","email":"testing"}]
+[{
+        "name": "Sen. E. Abaribe",
+        "state": "Abia",
+        "phone": "08033129452",
+        "email": "enyiabaribe@yahoo.com"
+    },
+    {
+        "name": "Sen. O. Kalu",
+        "state": "Abia",
+        "phone": "08034000001",
+        "email": "okalu@orjikalu.com"
+    },
+    {
+        "name": "Sen. T. Orji",
+        "state": "Abia",
+        "phone": "07082800000",
+        "email": "senatortaorji@gmail.com"
+    },
+    {
+        "name": "Sen. B. Yaroe",
+        "state": "Adamawa",
+        "phone": "08034050460",
+        "email": "bdyaroe@gmail.com"
+    },
+    {
+        "name": "Sen. I. Abbo",
+        "state": "Adamawa",
+        "phone": "08066285112",
+        "email": "faradugun@gmail.com"
+    },
+    {
+        "name": "Sen. A. Ahmed",
+        "state": "Adamawa",
+        "phone": "",
+        "email": "aishatu.ahmed@nass.gov.ng"
+    },
+    {
+        "name": "Sen. B. Akpan",
+        "state": "Akwa Ibom",
+        "phone": "08055555188",
+        "email": "akpanalbert@hotmail.com"
+    },
+    {
+        "name": "Sen. A. Eyakenyi",
+        "state": "Akwa Ibom",
+        "phone": "08035054282",
+        "email": "konssie@yahoo.com"
+    },
+    {
+        "name": "Sen. C. Ekpeyong",
+        "state": "Akwa Ibom",
+        "phone": "08027785234",
+        "email": "chrisekpesg@yahoo.com"
+    },
+    {
+        "name": "Sen. I. Ubah",
+        "state": "ANAMBRA",
+        "phone": "09096655596",
+        "email": "senatorifeanyiubah@gmail.com"
+    },
+    {
+        "name": "Sen. E. Uche",
+        "state": "ANAMBRA",
+        "phone": "08037620002",
+        "email": "u.ekwunife@yahoo.com"
+    },
+    {
+        "name": "Sen. A. Oduah",
+        "state": "ANAMBRA",
+        "phone": "08055084340",
+        "email": "senatorstella@gmail.com"
+    },
+    {
+        "name": "Sen. H. Jika",
+        "state": "Bauchi",
+        "phone": "08038666690",
+        "email": "jikahalliru@gmail.com"
+    },
+    {
+        "name": "Sen. A. Bulkachuwa",
+        "state": "Bauchi",
+        "phone": "",
+        "email": "adamu.bulkachuwa@nass.gov.ng"
+    },
+    {
+        "name": "Sen. L. Gamau",
+        "state": "Bauchi",
+        "phone": "",
+        "email": "lawal.gumau@nass.gov.ng"
+    },
+    {
+        "name": "Sen. O. EWHRUDJAKPO",
+        "state": "BAYELSA",
+        "phone": "09031352791",
+        "email": "ogagadick@gmail.com"
+    },
+    {
+        "name": "Sen. D. Diri",
+        "state": "BAYELSA",
+        "phone": "08036668698",
+        "email": "douyediri@gmail.com"
+    },
+    {
+        "name": "Sen. D. Wangagra",
+        "state": "BAYELSA",
+        "phone": "",
+        "email": "degi.wangagha@nass.gov.ng"
+    },
+    {
+        "name": "Sen. E. Orker-Jev",
+        "state": "BENUE",
+        "phone": "",
+        "email": "emmanuel.orkerjev@nass.gov.ng"
+    },
+    {
+        "name": "Sen A. Morro",
+        "state": "BENUE",
+        "phone": "08068870606",
+        "email": "abahmoro@yahoo.com"
+    },
+    {
+        "name": "Sen. A. Kyari",
+        "state": "BORNO",
+        "phone": "",
+        "email": "abubakar.kyari@nass.gov.ng"
+    },
+    {
+        "name": "Sen. K. Shettima",
+        "state": "BORNO",
+        "phone": "08034459047",
+        "email": "kashimshettima@gmail.com"
+    },
+    {
+        "name": "Sen. M. Ndume",
+        "state": "BORNO",
+        "phone": "08109480004",
+        "email": "mohammed.ndume@nass.gov.ng"
+    },
+    {
+        "name": "Sen. R. Oko",
+        "state": "CROSS RIVER",
+        "phone": "",
+        "email": "rose.oko@nass.gov.ng"
+    },
+    {
+        "name": "Sen. G. Bassey",
+        "state": "CROSS RIVER",
+        "phone": "08034444555",
+        "email": "gershombassey@gmail.com"
+    },
+    {
+        "name": "Sen. S. Onor",
+        "state": "CROSS RIVER",
+        "phone": "08030998460",
+        "email": "irunandu@yahoo.com"
+    },
+    {
+        "name": "Sen. O. Omo-Agege",
+        "state": "DELTA",
+        "phone": "07033399937",
+        "email": "senator.ovieomoagege@gmail.com"
+    },
+    {
+        "name": "Sen. J. Manager",
+        "state": "DELTA",
+        "phone": "08143103829",
+        "email": "jamesmanager2013@gmail.com"
+    },
+    {
+        "name": "Sen. P. Nwaoboshi",
+        "state": "DELTA",
+        "phone": "08037200999",
+        "email": "pnwaoboshi@yahoo.com"
+    },
+    {
+        "name": "Sen. C. Ordia",
+        "state": "EDO",
+        "phone": "08038403877",
+        "email": "engineercliffordordia@gmail.com"
+    },
+    {
+        "name": "Sen. F. Alimikhena",
+        "state": "EDO",
+        "phone": "08155555884",
+        "email": "falimikhena@yahoo.com"
+    },
+    {
+        "name": "Sen. M. Urhoghide",
+        "state": "EDO",
+        "phone": "08033855557",
+        "email": "matthewurhoghide@yahoo.com"
+    },
+    {
+        "name": "Sen. A. Adeyeye",
+        "state": "EKITI",
+        "phone": "08023051100",
+        "email": "dadeyeye34@gmail.com"
+    },
+    {
+        "name": "Sen. O. Adetumbi",
+        "state": "EKITI",
+        "phone": "08064487689",
+        "email": "senator.adetunmbi@gmail.com"
+    },
+    {
+        "name": "Sen. M. Bamidele",
+        "state": "EKITI",
+        "phone": "080911112",
+        "email": "amicusng@gmail.com"
+    },
+    {
+        "name": "Sen. C. Nnamani",
+        "state": "ENUGU",
+        "phone": "08022255522",
+        "email": "ebeanoglobal875@gmail.com"
+    },
+    {
+        "name": "Sen. Ikweremadu",
+        "state": "ENUGU",
+        "phone": "08075757000",
+        "email": "ikeekweremadu@yahoo.com"
+    },
+    {
+        "name": "Sen. C. Utazi",
+        "state": "ENUGU",
+        "phone": "",
+        "email": "chukwuka.utazi@nass.gov.ng"
+    },
+    {
+        "name": "Sen. A. Kilawangs",
+        "state": "GOMBE",
+        "phone": "",
+        "email": "amos.kilawangs@nass.gov.ng"
+    },
+    {
+        "name": "Sen. D. Mohammed",
+        "state": "GOMBE",
+        "phone": "07068686699",
+        "email": "mdgoje1@gmail.com"
+    },
+    {
+        "name": "Sen. S. Alkali",
+        "state": "GOMBE",
+        "phone": "08026032222",
+        "email": "saidualkali905@gmail.com"
+    },
+    {
+        "name": "Sen. S. Egwu",
+        "state": "EBONYI",
+        "phone": "08039665848",
+        "email": "drsamominyiegwu@gmail.com"
+    },
+    {
+        "name": "Sen. J. Ogba",
+        "state": "EBONYI",
+        "phone": "08037791346",
+        "email": "onwaigboasa@yahoo.com"
+    },
+    {
+        "name": "Sen. M. Nnachi",
+        "state": "EBONYI",
+        "phone": "08034528595",
+        "email": "michaelamannachi@gmail.com"
+    },
+    {
+        "name": "Sen. E. Onyewuchi",
+        "state": "IMO",
+        "phone": "08032012132",
+        "email": "ezeonyewuchi@gmail.com"
+    },
+    {
+        "name": "Sen. R. Okorocha",
+        "state": "IMO",
+        "phone": "",
+        "email": "rochas.okorocha@nass.gov.ng"
+    },
+    {
+        "name": "Sen. B. Uwajumogu",
+        "state": "IMO",
+        "phone": "",
+        "email": "benjamin.uwajumogu@nass.gov.ng"
+    },
+    {
+        "name": "Sen. D. Sankara",
+        "state": "JIGAWA",
+        "phone": "08037032577",
+        "email": "dsankara@yahoo.co.uk"
+    },
+    {
+        "name": "Sen. S. Mohammed",
+        "state": "JIGAWA",
+        "phone": "08022902648",
+        "email": "nakudu@yahoo.com"
+    },
+    {
+        "name": "Sen. I. Hadejia",
+        "state": "JIGAWA",
+        "phone": "",
+        "email": "ibrahim.hadejia@nass.gov.ng"
+    },
+    {
+        "name": "Sen. D. La'ah",
+        "state": "KADUNA",
+        "phone": "08118887772",
+        "email": "laah.danjuma@yahoo.com"
+    },
+    {
+        "name": "Sen. S. Kwari",
+        "state": "KADUNA",
+        "phone": "08033019005",
+        "email": "suleimankwari@yahoo.com"
+    },
+    {
+        "name": "Sen. K. Gaya",
+        "state": "KANO",
+        "phone": "",
+        "email": "kabiru.gaya@nass.gov.ng"
+    },
+    {
+        "name": "Sen. I. Jibrin",
+        "state": "KANO",
+        "phone": "",
+        "email": "ibrahim.jibrin@nass.gov.ng"
+    },
+    {
+        "name": "Sen. I. Shekarau",
+        "state": "KANO",
+        "phone": "08099199111",
+        "email": "ishekarau55@yahoo.com"
+    },
+    {
+        "name": "Sen. A. Babba-Kaita",
+        "state": "KATSINA",
+        "phone": "",
+        "email": "ahmad.babba@nass.gov.ng"
+    },
+    {
+        "name": "Sen. B. Mandiya",
+        "state": "KATSINA",
+        "phone": "",
+        "email": "bellom2001@yahoo.com"
+    },
+    {
+        "name": "Sen. K. Barkiya",
+        "state": "KATSINA",
+        "phone": "08138360742",
+        "email": "barkamazadu00@yahoo.com"
+    },
+    {
+        "name": "Sen. M. Aliero",
+        "state": "KEBBI",
+        "phone": "07066847000",
+        "email": "senatoraliero@yahoo.com"
+    },
+    {
+        "name": "Sen. Y. Abdullahi",
+        "state": "KEBBI",
+        "phone": "",
+        "email": "yahaya.abdullahi@nass.gov.ng"
+    },
+    {
+        "name": "Sen. B. Na'Allah",
+        "state": "KEBBI",
+        "phone": "",
+        "email": "bala.naallah@nass.gov.ng"
+    },
+    {
+        "name": "Sen. J. Isah",
+        "state": "KOGI",
+        "phone": "08185651909",
+        "email": "isahj@ymail.com"
+    },
+    {
+        "name": "Sen. O. Yakubu",
+        "state": "KOGI",
+        "phone": "07032642674",
+        "email": "yakubu.oseni75@yahoo.com"
+    },
+    {
+        "name": "Sen. A. Yisa",
+        "state": "KWARA",
+        "phone": "07055221111",
+        "email": "ylashiru@gmail.com"
+    },
+    {
+        "name": "Sen. S. Umar",
+        "state": "KWARA",
+        "phone": "",
+        "email": "sadiq.umar@nass.gov.ng"
+    },
+    {
+        "name": "Sen. I. Olorigbigbe",
+        "state": "KWARA",
+        "phone": "",
+        "email": "oloridoc@yahoo.com"
+    },
+    {
+        "name": "Sen. Oluremi Tinubu",
+        "state": "LAGOS",
+        "phone": "08095300251",
+        "email": "info@oluremitinubu.com"
+    },
+    {
+        "name": "Sen. S. Osinowo",
+        "state": "LAGOS",
+        "phone": "08033049369",
+        "email": "bayoosinowo@gmail.com"
+    },
+    {
+        "name": "Sen. S. Adeola",
+        "state": "LAGOS",
+        "phone": "08074000040",
+        "email": "adeolaolamilekan2005@yahoo.com"
+    },
+    {
+        "name": "Sen. A. Adamu",
+        "state": "NASARAWA",
+        "phone": "",
+        "email": "abdullahi.adamu@nass.gov.ng"
+    },
+    {
+        "name": "Sen. G. Awkashiki",
+        "state": "NASARAWA",
+        "phone": "08099321703",
+        "email": "godiyaakwashiki123@gmail.com"
+    },
+    {
+        "name": "Sen. U. Almakura",
+        "state": "NASARAWA",
+        "phone": "08077253989",
+        "email": "tankoalmakura@yahoo.co.uk"
+    },
+    {
+        "name": "SEN. ALIYU ABDULLAHI",
+        "state": "NIGER",
+        "phone": "08052046555",
+        "email": "draliyuabdullahii@gmail.com"
+    },
+    {
+        "name": "Sen. M. Bima",
+        "state": "NIGER",
+        "phone": "08173479797",
+        "email": "sangibima@gmail.com"
+    },
+    {
+        "name": "Sen. M. Musa",
+        "state": "NIGER",
+        "phone": "08033114615",
+        "email": "Sani_313@hotmail.com"
+    },
+    {
+        "name": "Sen. R. Mustapha",
+        "state": "OGUN",
+        "phone": "08033047403",
+        "email": "adeoshy@gmail.com"
+    },
+    {
+        "name": "Sen. I. Amosun",
+        "state": "OGUN",
+        "phone": "08033213993",
+        "email": "amks2@yahoo.com"
+    },
+    {
+        "name": "Sen. T. Odebiyi",
+        "state": "OGUN",
+        "phone": "08036058080",
+        "email": "toluodebiyi@gmail.com"
+    },
+    {
+        "name": "Sen. A. Akinyelure",
+        "state": "ONDO",
+        "phone": "08091707000",
+        "email": "akinyelure1@yahoo.com"
+    },
+    {
+        "name": "Sen. N. Tofowomo",
+        "state": "ONDO",
+        "phone": "08054546666",
+        "email": "tofowomo_1960@yahoo.com"
+    },
+    {
+        "name": "Sen. R. Boroffice",
+        "state": "ONDO",
+        "phone": "08176406557",
+        "email": "rboroffice@yahoo.com"
+    },
+    {
+        "name": "Sen. S. Basiru",
+        "state": "OSUN",
+        "phone": "08034753343",
+        "email": "ajibolabasiru@hotmail.com"
+    },
+    {
+        "name": "Sen. F. Fadahunsi",
+        "state": "OSUN",
+        "phone": "08052242211",
+        "email": "adefadahunsi19@gmail.com"
+    },
+    {
+        "name": "Sen. A. Oriolowo",
+        "state": "OSUN",
+        "phone": "08033565979",
+        "email": "yemlee12@gmail.com"
+    },
+    {
+        "name": "Sen. T. Folarin",
+        "state": "OYO",
+        "phone": "08033160587",
+        "email": "teslimkfolarin@yahoo.com"
+    },
+    {
+        "name": "Sen. B. Omotayo",
+        "state": "OYO",
+        "phone": "08037053375",
+        "email": "rabab1004@yahoo.com"
+    },
+    {
+        "name": "Sen. A. Balogun",
+        "state": "OYO",
+        "phone": "08132956057",
+        "email": "kbalogun7707@gmail.com"
+    },
+    {
+        "name": "Senator I. Longjan",
+        "state": "PLATEAU",
+        "phone": "07044442045",
+        "email": "talk2longjan@gmail.com"
+    },
+    {
+        "name": "Sen. H. Dimka",
+        "state": "PLATEAU",
+        "phone": "08033359443",
+        "email": "dewansamson4@gmail.com"
+    },
+    {
+        "name": "Sen. I. Gyang",
+        "state": "PLATEAU",
+        "phone": "08097777712",
+        "email": "dridgyang@gmail.com"
+    },
+    {
+        "name": "Sen. B. Apiafi",
+        "state": "RIVERS",
+        "phone": "",
+        "email": "betty.apiafi@nass.gov.ng"
+    },
+    {
+        "name": "Sen. G. Sekibo",
+        "state": "RIVERS",
+        "phone": "",
+        "email": "george.sekibo@nass.gov.ng"
+    },
+    {
+        "name": "Sen. B. Mpigi",
+        "state": "RIVERS",
+        "phone": "08037419000",
+        "email": "mpigib@yahoo.com"
+    }
+]

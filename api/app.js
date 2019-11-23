@@ -33,8 +33,8 @@ app.get("/senators/:state", (req, res) => {
 
 app.get("*", (req, res) => {
   res.status(404).json({
-    title: "404 route not found",
-    errorMessage: "that route does not exist",
+    title: "route not found",
+    message: "that route does not exist",
   });
 });
 
