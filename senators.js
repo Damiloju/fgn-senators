@@ -39,7 +39,7 @@ const getSenators = () => {
 
 const getSenatorsByState = (state) => {
     const allSenators = loadSenators();
-    const senators = allSenators.filter(senator => senator.state === state);
+    const senators = allSenators.filter(senator => senator.state === state.toUpperCase());
     return senators;
 }
 

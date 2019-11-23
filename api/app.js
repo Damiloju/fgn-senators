@@ -19,6 +19,7 @@ app.get("/senator", (req, res) => {
     });
   }
 
+
   const senator = senators.getSenator(req.query.name);
 
   res.status(200).json(senator);
