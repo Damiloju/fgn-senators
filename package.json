@@ -4,7 +4,8 @@
   "description": "An application and api to get the details of senators of the federal repulblic of nigeria",
   "main": "index.js",
   "scripts": {
-    "build": "postcss css/tailwind.css -o public/css/tailwind.css"
+    "build-css": "postcss css/tailwind.css -o public/css/tailwind.css",
+    "start": "node api/app.js"
   },
   "author": "@yusufdamiloju",
   "license": "ISC",
