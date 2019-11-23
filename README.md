@@ -4,18 +4,125 @@ An application and api to get the details of senators of the federal repulblic o
 
 # API endpoints
 
-1. `GET` `/senators`
+## **Get All Senators**
 
-   - Get all senators
+Returns json data with an array of senators.
 
-2. `GET` `/senators`
+- **URL**
 
-   - Get all senators
+  /api/senators
 
-3. `GET` `/senator`
+- **Method:**
 
-   - Get senator by name
-     - parameters `Name`
+  `GET`
 
-4. `GET` `/senators/:state`
-   - Get senators by state
+- **URL Params**
+
+  None
+
+- **Data Params**
+
+  None
+
+- **Success Response:**
+
+  - **Code:** 200 <br />
+    **Content:** `[{ name : "Senator", state: "Abt", phone:"030303", email:'email' }.....]`
+
+- **Sample Call:**
+
+  ```javascript
+  $.ajax({
+    url: "/api/senators",
+    dataType: "json",
+    type: "GET",
+    success: function(r) {
+      console.log(r);
+    }
+  });
+  ```
+
+## **Get Senator by Name**
+
+Returns json data with senator details.
+
+- **URL**
+
+  /api/senator
+
+- **Method:**
+
+  `GET`
+
+- **Query Params**
+
+  **Required:**
+
+  `name=[string]`
+
+- **Data Params**
+
+  None
+
+- **Success Response:**
+
+  - **Code:** 200 <br />
+    **Content:** `{ name : "Senator", state: "Abt", phone:"030303", email:'email' }`
+
+- **Error Response:**
+
+  - **Code:** 404 NOT FOUND <br />
+    **Content:** `{ error : "Senator doesn't exist" }`
+
+- **Sample Call:**
+
+  ```javascript
+  $.ajax({
+    url: "/api/senator?name=anmamam",
+    dataType: "json",
+    type: "GET",
+    success: function(r) {
+      console.log(r);
+    }
+  });
+  ```
+
+## **Get All Senators from a state**
+
+Returns json data with an array of senators.
+
+- **URL**
+
+  /api/senators/:state
+
+- **Method:**
+
+  `GET`
+
+- **URL Params**
+
+  **Required:**
+
+  `state=[state]`
+
+- **Data Params**
+
+  None
+
+- **Success Response:**
+
+  - **Code:** 200 <br />
+    **Content:** `[{ name : "Senator", state: "Abt", phone:"030303", email:'email' }.....]`
+
+- **Sample Call:**
+
+  ```javascript
+  $.ajax({
+    url: "/api/senators/abia",
+    dataType: "json",
+    type: "GET",
+    success: function(r) {
+      console.log(r);
+    }
+  });
+  ```
