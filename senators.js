@@ -1,14 +1,16 @@
 const fs = require("fs");
 const chalk = require("chalk");
 
-const addSenator = (title, body) => {
+const addSenator = (name, state, phone, email) => {
     const senators = loadSenators();
-    const duplicateSenator = senators.find(senator => senator.title === title);
+    const duplicateSenator = senators.find(senator => senator.name === name);
 
     if (!duplicateSenator) {
         senators.push({
-            title,
-            body
+            name,
+            state,
+            phone,
+            email
         });
 
         saveSenators(senators);
@@ -19,13 +21,12 @@ const addSenator = (title, body) => {
     }
 };
 
-const getSenator = title => {
+const getSenator = name => {
     const senators = loadSenators();
-    const senator = senators.find(senator => senator.title === title);
+    const senator = senators.find(senator => senator.name === name);
 
     if (senator) {
-        console.log(chalk.green(senator.title));
-        console.log(senator.body);
+        console.log(chalk.green(senator));
     } else {
         console.log(chalk.red("Senator not found"));
     }
@@ -33,7 +34,7 @@ const getSenator = title => {
 
 const getSenators = () => {
     const allSenators = loadSenators();
-    allSenators.forEach(senator => console.log(senator.title));
+    allSenators.forEach(senator => console.log(senator));
 };
 
 const loadSenators = () => {
@@ -46,9 +47,9 @@ const loadSenators = () => {
     }
 };
 
-const removeSenator = title => {
+const removeSenator = name => {
     const senators = loadSenators();
-    const newSenators = senators.filter(senator => senator.title !== title);
+    const newSenators = senators.filter(senator => senator.name !== name);
 
     if (senators.length === newSenators.length) {
         console.log(chalk.red("No Senator found"));

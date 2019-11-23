@@ -1,6 +1,6 @@
 const chalk = require("chalk");
 const yargs = require("yargs");
-const notes = require("./senators.js");
+const senators = require("./senators.js");
 
 /**
  *  Customize Yargs
@@ -9,7 +9,7 @@ const notes = require("./senators.js");
  * Create add Command
  * Create remove Command
  * Create list Command
- * Create read Command
+ * Create get Command
  * */
 
 yargs.version("1.1.0");
@@ -18,20 +18,30 @@ yargs.command({
     command: "add",
     describe: "Add a new Senator",
     builder: {
-        title: {
-            describe: "Senator title",
+        name: {
+            describe: "Senator Name",
             demandOption: true,
             type: "string"
         },
-        body: {
-            describe: "Body of the Senator",
+        state: {
+            describe: "State of the Senator",
+            demandOption: true,
+            type: "string"
+        },
+        phone: {
+            describe: "Senator Phone number",
+            demandOption: true,
+            type: "string"
+        },
+        email: {
+            describe: "Senator Email",
             demandOption: true,
             type: "string"
         }
     },
     handler: argv => {
         console.log(chalk.blue(`Adding Senator...........`));
-        notes.addNote(argv.title, argv.body);
+        senators.addSenator(argv.name, argv.state, argv.phone, argv.email);
     }
 });
 
@@ -39,15 +49,15 @@ yargs.command({
     command: "remove",
     describe: "Remove a new Senator",
     builder: {
-        title: {
-            describe: "Title of the Senator",
+        name: {
+            describe: "Senator Name",
             demandOption: true,
             type: "string"
         }
     },
     handler: argv => {
         console.log(chalk.blue("Removing Senator....."));
-        notes.removeNote(argv.title);
+        senators.removeSenator(argv.name);
     }
 });
 
@@ -56,7 +66,7 @@ yargs.command({
     describe: "List all Senators",
     handler: () => {
         console.log(chalk.blue("Your Senators....."));
-        notes.getNotes();
+        senators.getSenators();
     }
 });
 
@@ -64,14 +74,14 @@ yargs.command({
     command: "get",
     describe: "Get a Senator",
     builder: {
-        title: {
-            describe: "Title of the Senator",
+        name: {
+            describe: "Senator Name",
             demandOption: true,
             type: "string"
         }
     },
     handler: argv => {
-        notes.getNote(argv.title);
+        senators.getSenator(argv.name);
     }
 });
 
